@@ -1,10 +1,9 @@
-let pass = false
+let doc = document.getElementsByClassName("container-itens-servicos")
 
 function ampliar(props){
-    if(!pass){
-        document.getElementsByClassName("container-itens-servicos")[props].style.height = "auto"
+    if(doc[props].style.height == "auto"){
+        doc[props].style.height = "250px"
     }else{
-        document.getElementsByClassName("container-itens-servicos")[props].style.height = "250px"
+        doc[props].style.height = "auto"
     }
-    pass = !pass
 }

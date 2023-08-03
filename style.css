@@ -149,7 +149,7 @@ a {
     margin: 20px;
     transition: 0.4s all;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 .itens-servicos img{
     width: 100%;
